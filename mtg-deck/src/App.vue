@@ -12,6 +12,15 @@ mtg.card.find(3)
   console.log(result.card.name)
 })
 
+mtg.card.where({ supertypes: 'legendary', subtypes: 'goblin'})
+.then(cards => {
+
+  cards.forEach(card => {
+    console.log(card.name)
+  });
+  
+})
+
 export default {
   name: 'App',
   components: {
