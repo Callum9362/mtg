@@ -1,17 +1,15 @@
 <template>
-  <div id="app">
-  </div>
+  <Card />
 </template>
 
 <script>
 
-const mtg = require('mtgsdk')
-
-
+import Card from './components/Card'
 
 export default {
   name: 'App',
   components: {
+    Card
   }
 }
 </script>
