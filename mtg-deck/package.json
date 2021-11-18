@@ -14,7 +14,8 @@
     "mtgsdk": "^0.4.3",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.8",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

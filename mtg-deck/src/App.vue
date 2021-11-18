@@ -1,20 +1,15 @@
 <template>   
-  <div id="root">
-    <Card />
-    <Goblins/>
-  </div>
+    <Garruk />
 </template>
 
 <script>
 
-import Card from './components/Card'
-import Goblins from './components/Goblins'
+import Garruk from './components/Garruk'
 
 export default {
   name: 'App',
   components: {
-    Card,
-    Goblins
+    Garruk
   }
 }
 </script>

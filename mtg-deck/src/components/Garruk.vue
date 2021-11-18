@@ -12,8 +12,8 @@ export default {
     name: 'Card',
     data: function() {
         return {
-            cardName: mtg.card.find(3).then(result => { this.cardName = result.card.name  }), // Black Lotus
-            imageURL: mtg.card.find(3).then(result => { this.imageURL = result.card.imageUrl  })
+            cardName: mtg.card.where({name: 'Garruk Wildspeaker'}).then(result => { this.cardName = result.card.name }), // Garruk
+            imageURL: mtg.card.where({name: 'Garruk Wildspeaker'}).then(result => { this.imageURL = result.card.imageUrl })
         }
     }
 }
